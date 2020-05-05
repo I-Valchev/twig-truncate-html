@@ -1,0 +1,26 @@
+{
+  "name": "ivovalchev/twig-truncate-html",
+  "description": "A Twig truncate_html filter without breaking HTML tags.",
+  "type": "twig-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivo Valchev",
+      "email": "me@ivovalchev.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "twig/twig": "^2.0 | ^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "IvoValchev\\TruncateHtmlExtension\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "entrypoint": "IvoValchev\\TruncateHtmlExtension\\TruncateHtmlExtension"
+  }
+}
